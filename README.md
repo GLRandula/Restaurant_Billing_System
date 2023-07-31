@@ -3,7 +3,7 @@ C Language Assignment (GNU Utility)
 
 This program is a simple console-based restaurant billing system written in C. It allows users to perform various operations related to generating and managing restaurant invoices.
 
-Features:
+## Features:
 
     Generate Invoice: Users can generate a new invoice by providing customer details, items purchased, quantity, and unit price for each item. The program calculates        the total, discounts, and the grand total for the invoice.
 
@@ -15,31 +15,31 @@ Features:
 
     Show Deleted Invoices: Users can view the details of previously deleted invoices.
 
-Login Credentials:
+## Login Credentials:
 The program requires users to log in with a username and password. The default login credentials are as follows:
 
     Username: admin
     Password: admin6@@!
 
-Data Storage:
+## Data Storage:
 Invoices are stored in a file named "RestaurantBill.dat". When an invoice is deleted, it is moved to a temporary file, and then the original file is replaced with the temporary one.
 
-Deleted Invoices Storage:
+## Deleted Invoices Storage:
 Deleted invoices are stored in an array named "deletedInvoices" with a maximum capacity of 100. The "numDeletedInvoices" variable keeps track of the number of deleted invoices.
 
-Compilation:
+## Compilation:
 To compile the program, use a C compiler (e.g., GCC) with the following command:
 
 gcc -o restaurant_billing_system restaurant_billing_system.c
 
-Execution:
+## Execution:
 After compiling, run the program using the following command:
 
 bash
 
 ./restaurant_billing_system
 
-Instructions:
+## Instructions:
 
     Upon running the program, you will be prompted to log in using the provided username and password.
 
@@ -63,7 +63,7 @@ Instructions:
 
     To exit the program, choose "Exit" (Option 7).
 
-Note:
+## Note:
 
     All generated and deleted invoices are stored in memory during program execution. If you terminate the program, the data will be lost.
 
@@ -71,8 +71,8 @@ Note:
 
     The program assumes a maximum of 50 items per invoice and can store up to 100 deleted invoices. You can modify these values in the code if needed.
 
-License:
+## License:
 This program is distributed under the MIT License. Feel free to modify and use it according to your needs.
 
-Author:
+## Author:
 This program was created by G. Lakith Randula, and the last update was made on 7/31/2023.
